@@ -1,13 +1,12 @@
 import React from 'react';
-import LoginButton from './components/login.tsx';
-
-const App = () => {
+import FloodMap from './components/FloodMap';
+import DetailsPanel from './components/DetailsPanel';
+function App() {
   return (
-    <div>
-      <LoginButton />
-      {/* Other components */}
+    <div className="App">
+      <FloodMap />
     </div>
   );
-};
+}
 
 export default App;
